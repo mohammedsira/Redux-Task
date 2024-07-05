@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+* {
+  font-family: "Macondo", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-color: black;
+}
+
+.navbar-brand {
+  margin-left: 50%;
+}
+
+.card {
+  border-radius: 10px !important;
+  margin-bottom: 10px !important;
+  width: 80%;
+  margin-left: 10%;
+
+}
+
+.card .img-box {
+  display: flex;
+  justify-content: center;
+  height: 8em;
+  margin: 30px auto 0 auto !important;
+  object-fit: scale-down;
+
+}
+
+.img-box img {
+  border-radius: 10px !important;
+  width: 90%;
+  align-self: center;
+  height: 100%;
+}
+
+.card-body {
+  padding-bottom: 50px !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-break: auto;
+
+}
+
+.col-sm-6 {
+  margin-top: 1em !important
+}
+
+.quantity,
+.price {
+  margin-left: 50%;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.product {
+  background-color: black;
+  color: beige;
+  margin-bottom: 50px;
+}
+
+.navbar {
+  background-color: rgb(102, 21, 222);
+  color: rgb(239, 28, 28);
+}
